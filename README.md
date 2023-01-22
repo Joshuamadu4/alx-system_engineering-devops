@@ -1,1 +1,1 @@
-This is my Shell navigation assignment
+This is my First Shell Scripting assignment
