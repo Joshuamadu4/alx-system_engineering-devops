@@ -15,8 +15,8 @@ frontend  joshua-frontend
         default_backend joshua-backend
 backend joshua-backend
         balance roundrobin
-        server 139835-web-01 54.84.12.131:80 check
-        server 139835-web-02 3.85.196.215:80 check
+        server 139835-web-01 34.229.69.144:80 check
+        server 139835-web-02 3.84.168.74:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
